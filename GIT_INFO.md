@@ -29,7 +29,8 @@
 * Change directory into one you want to use for your code like ~/code/
 * When you clone a repo, a new sub directory named "reponame" will be created.
 * Get the command syntax from the Github site here:
-![Alt text](https://monosnap.com/file/p8cn1VxneOc0FVx41ZtxXAkpiiiPa9.png)
+
+  ![Alt text](https://monosnap.com/file/p8cn1VxneOc0FVx41ZtxXAkpiiiPa9.png)
 * Clone the repo: `git clone git@github.com:daraghlowe/wpelk.git`
 
 *How to create your branch*
@@ -65,7 +66,10 @@
 ```
 
 *Create a pull request to update master branch*
-* 
+* Select your branch on Github and click `New Pull Request`
+
+  ![Alt text](https://monosnap.com/file/KUaX4odFMDp5K7PQg8X4Qbvow4Vw9Q.png)
+
 
 *Other notes*
 * You can create `readme.md` files to provide info on what your code is doing.
