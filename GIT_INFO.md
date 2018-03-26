@@ -21,7 +21,10 @@
 * Add your public key to your github account in settings
  `cat ~/.ssh/id_rsa_[git_hub_user_here].pub`
 * Request access to the Github Repository from the owner
-
+* Run this to fix the following error: `xcode-select --install`
+```
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcru
+```
 
  **GIT COMMANDS**
 
