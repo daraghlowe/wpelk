@@ -19,4 +19,5 @@ Create a script that has a command line menu for interacting with the open weath
 ## Resources
 https://openweathermap.org/appid - setup info for api
 https://openweathermap.org/api - list of apis
+
 https://stedolan.github.io/jq/ - info on jq for json
