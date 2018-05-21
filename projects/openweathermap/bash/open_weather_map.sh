@@ -12,4 +12,5 @@ function get_city_id_from_json(){
   COUNTRY_CODE=$2
   
   CITY_ID=$(jq --arg CITY_NAME "${CITY_NAME}" --arg COUNTRY_CODE "${COUNTRY_CODE}" '.[] | select(.name | match($CITY_NAME;"i")) | select(.country | match($COUNTRY_CODE;"i")) | .id' $CITY_LIST_FILE)
+  echo $CITY_ID
 }
